@@ -1,0 +1,48 @@
+.card {
+  width: 200px;
+  font-size: 12px;
+  flex: 0 0 100;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica;
+  box-shadow: 0 4px 8px 0 rgba(14, 69, 14, 0.874) ;
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  margin: 10 10;
+  padding: 10 10;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  /*
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 50 50;*/
+}
+
+.card--stats {
+position: relative;
+ align-items: center;
+ 
+ text-align: center;
+}
+.card--rating{
+position: relative;
+ display: inline-flex; 
+ align-items: center;
+
+ text-align: center;
+}
+
+
+h5, h6{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+}
