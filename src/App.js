@@ -6,6 +6,7 @@ import Footer from './Component/Footer';
 import Books from './Component/Books';
 import './App.css';
 
+//Main page
 function App() {
   return (
     <div className="App">
