@@ -7,7 +7,7 @@ import Books from './Component/Books';
 import './App.css';
 
 //Main page
-function App() {
+function App() 
   return (
     <div className="App">
     <Header />
